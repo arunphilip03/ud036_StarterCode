@@ -14,14 +14,11 @@ with open(movies_data_file) as movies_file:
         movie = media.Movie(movie_data['title'],
                             movie_data['imageUrl'],
                             movie_data['youtubeUrl'])
-        
-        # Create a list of movie instances.
-        
-        movies_list.append(movie)
-        
 
+        # Create a list of movie instances.
+
+        movies_list.append(movie)
 
 # Display the movie website.
 
 fresh_tomatoes.open_movies_page(movies_list)
-
