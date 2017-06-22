@@ -13,6 +13,7 @@ The list of movies used for this website can be modified by editing the json fil
 Run the python file `entertainment_center.py' to launch the movie trailer website.
 
 _example:_
+
 ```
 python entertainment_center.py
 ```
