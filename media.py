@@ -3,7 +3,7 @@ import webbrowser
 
 class Movie(object):
     """ This class stores movie related information.
-    Attributes:
+        Attributes:
         title: A string indicating the title of the movie.
         poster_image_url: A string to hold the poster image url of the movie.
         trailer_youtube_url: A string to hold the youtube trailer url
